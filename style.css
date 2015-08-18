@@ -46,19 +46,21 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-ul {
+ul.header {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 20px;
+    text-align: center;
 }
 
-li {
+li.header {
   width: 100px;
   border-style: solid;
   border: 10px;
   border-color: blue;
   margin: 40px;
   font-size: 40px;
+  text-align: center;
   display: inline;
 }
 
@@ -77,6 +79,7 @@ margin: 10px;
 
 body {
   font-family: helvetica;
+  text-align: center;
 }
 
 h1 {
@@ -97,4 +100,10 @@ body {
 div.top {
   background-color: turquoise;
   color: white;
+}
+
+div.main-content {
+  background-color: ;
+  width: 500px;
+  margin: auto;
 }

@@ -3,6 +3,11 @@
    License: none (public domain)
 */
 
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
+
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script);
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -28,8 +33,12 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	line-height: 1;
+  font-family: 'Pacifico', cursive; 
+  text-align: center;
+  color: #9EA09B;
 }
 ol, ul {
 	list-style: none;
@@ -62,48 +71,43 @@ li.header {
   font-size: 40px;
   text-align: center;
   display: inline;
+  font-family: 'Open Sans', sans-serif;
 }
 
-div.box {
-border: 10px;
-border-top-style: solid;
-border-color: turquoise;
-background-color: white;
-margin: 10px;
-  float: left;
-  width: 250px;
-  padding: 50px;
-  margin-right: 25px;
+a {
+  text-decoration: none;
+    color: #AE81FF;
+
 }
 
-
-body {
-  font-family: helvetica;
-  text-align: center;
+a:visited {
+  color: #AE81FF;
 }
 
 h1 {
-  font-size: 150px;
+  font-size: 7em;
   padding: 20px;
-  font-weight: bold;
+  font-weight: lighter;
+  margin-top: 200px;
+  font-family: 'Dancing Script', cursive;
 }
 
 h2 {
   font-size: 60px;
   padding: 20px;
+
 }
 
 body {
-  color: purple;
+  background-color: #272C34;
 }
 
 div.top {
-  background-color: turquoise;
+
   color: white;
 }
 
 div.main-content {
-  background-color: ;
   width: 500px;
   margin: auto;
 }

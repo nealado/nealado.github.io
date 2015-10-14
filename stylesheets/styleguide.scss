@@ -1,0 +1,29 @@
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,100,300,600|Merriweather:400,100,300,600);
+
+$font-h1: 'Josefin Sans', sans-serif;
+$font-body: 'Merriweather', serif;
+
+
+
+body {
+  font-family: $font-h1
+  /*background-color: #272C34;*/
+  /*color: #E87E0C;*/
+}
+
+h1 {
+  font-size: 5em;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: $font-body;
+  font-weight: 100;
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
+
+em {
+  color: #E89536;
+}

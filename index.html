@@ -10,18 +10,47 @@
 
   <h1> Victoria Donnelly </h1>
 
-  <ul class="header">
-    <li class = "header"><a href="https://github.com/nealado"> Github</a></li>
-    <li class = "header"><a href="https://www.linkedin.com/pub/victoria-donnelly/46/b31/75b
+<!-- NavBar -->
+  <ul id="header">
+    <li id = "header"><a href="https://github.com/nealado"> Github </a></li>
+    <li id= "header"> | </li>
+    <li id = "header"><a href="https://www.linkedin.com/pub/victoria-donnelly/46/b31/75b
   ">LinkedIn</a></li>
   </ul>
 
-  <div id="Project">
-    <img src="/images/tictactoe.jpg" width = 200px alt="Tic Tac Toe Project Screenshot" />
-  </div>
+<!-- Projects List -->
 
-  <div id="Project">
-    <!-- <img src="/images/tictactoe.jpg" alt="Forum Project Screenshot" /> -->
+  <div class="projectList">
+    <div class="project">
+      <a href="nealado.github.io/TTT-donnelly.github.io"><img align="left" src="/images/tictactoe.jpg" width = 200px alt="Tic Tac Toe Project Screenshot" /></a>
+      <h3> <strong>Tic Tac Toe:</strong> </h3>
+      <p>A multiplayer game built with JavaScript and Velocity.js</p>
+
+      <ul>
+        <li> Animated pieces, logo, board, notifications with SVGs, Velocity.js, CSS</li>
+        <li> Developed game logic and programmed all winning combinations through Javascript</li>
+      </ul>
+    </div>
+
+    <br>
+
+    <div class="project">
+      <div class="projectImage">
+        <a href="https://comicrec.herokuapp.com/">
+          <img align="left" src="/images/comicrec.png" width = 200px alt="Comic Rec Project Screenshot" />
+        </a>
+      </div>
+
+      <h3> <strong>Comic Rec</strong> </h3>
+      <p><em>An app built to help first time comic book readers discover the medium using Node.js & React</em></p>
+      <ul>
+        <li> Developed genre survey, list of recommended comics views with React </li>
+        <li> Generated suggestions from database of comics built with MongoDB, connected to Node & Express server</li>
+        <li>Returned comic book data to the user from a third party API with AJAX</li>
+        <li>Styled with React-Bootstrap, deployed to Heroku with MongoLab </li>
+      </ul>
+    </div>
+
   </div>
 
 </body>

@@ -5,7 +5,7 @@ a {
 }
 
 .icon:hover {
-  fill: #1abc9c;
+  fill: #3498db;
 }
 
 .icon {
@@ -35,9 +35,21 @@ h1 {
 h4{
   color: #e74c3c;
 }
+
 p {
   margin: 0;
   padding: 0;
+}
+
+.screenshot {
+  opacity: 0;
+}
+.screenshot:hover {
+  opacity: 1;
+}
+
+svg {
+  max-height: 100%;
 }
 
 .header {
@@ -61,6 +73,7 @@ p {
   margin: 0 auto;
 }
 
+
 @media (min-width: 500px) {
   h1 {
     font-size: 4em;
@@ -72,7 +85,7 @@ p {
 
 @media (min-width: 800px) {
   h1 {
-    font-size: 6em
+    font-size: 5.5em
  }
 }
 

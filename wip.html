@@ -13,24 +13,27 @@
   </div>
 
   <div class="container">
-    <svg viewBox= "-25 0 450 390" version="1.1" class="svg-triangle">
+    <svg viewBox= "-25 0 450 390" preserveAspectRatio="xMidYMin slice" version="1.1" class="svg-triangle"
+
+      style="width: 100%; padding-bottom: 80%; max-height: 100%; height: 1px; overflow: visible">
 
       <g>
         <defs>
-         <pattern id="image" height="1px" width="1px" viewbox="0 30 80 20">
-           <image x="0" y="0" width="80" height="80" xlink:href="images/comicrec_circle.png"></image>
+         <pattern id="image" height="1px" width="1px" >
+           <image x="-50" y="-2" width="200" height="200" xlink:href="images/comicrec_circle.png"></image>
          </pattern>
        </defs>
 
-          <polygon fill="#303639" points="0,0 0,120 400, 50"/>
-          <a xlink:href="http://comicrec.herokuapp.com">
-            <circle fill="#e74c3c" cx="42" cy="60" r="50" />
-            <text font-size="22" style="font-family: 'Josefin Sans', sans-serif;" fill="white" x="0" y="65">ComicRec </text>
-            <!-- <circle fill="url(#image)" cx="42" cy="60" r="50" /> -->
-          </a>
-            <text font-size="8"   fill="white" x="95" y="50">» Finds new readers comics they'll love</text>
-            <text font-size="8"   fill="white" x="95" y="60">» Express, React, AJAX, ComicVine API </text>
-            <text font-size="8"   fill="white" x="95" y="70">» Bootstrap, SASS </text>
+        <polygon fill="#303639" points="0,0 0,120 400, 50"/>
+        <a xlink:href="http://comicrec.herokuapp.com">
+          <circle class="backgroundCircle" fill="#e74c3c" cx="42" cy="60" r="50" />
+          <text font-size="22" style="font-family: 'Josefin Sans', sans-serif;" fill="white" x="0" y="65">ComicRec </text>
+          <circle class="screenshot" fill="url(#image)" cx="42" cy="60" r="50" />
+
+        </a>
+          <text font-size="8"   fill="white" x="95" y="50">» Finds new readers comics they'll love</text>
+          <text font-size="8"   fill="white" x="95" y="60">» Express, React, AJAX, ComicVine API </text>
+          <text font-size="8"   fill="white" x="95" y="70">» Bootstrap, SASS </text>
       </g>
 
       <g>
@@ -43,8 +46,7 @@
         <a xlink:href="http://nealado.github.io/TTT-donnelly.github.io">
           <circle fill="#3498db" cx="358" cy="120" r="50" />
           <text font-size="22" style="font-family: 'Josefin Sans', sans-serif;" fill="white" x="340" y="125">TTT </text>
-
-          <!-- <circle fill="url(#image-2)" cx="358" cy="120" r="50" /> -->
+          <circle class="screenshot" fill="url(#image-2)" cx="358" cy="120" r="50" />
         </a>
         <text text-anchor="end" font-size="8"   fill="white" x="305" y="110">Animated Tic Tac Toe «</text>
         <text text-anchor="end" font-size="8"   fill="white" x="305" y="120">Javascript, Velocity.js « </text>
@@ -61,8 +63,7 @@
         <a xlink:href="https://project-3-quiz.herokuapp.com">
           <circle fill="#e74c3c" cx="42" cy="210" r="50" />
           <text font-size="22" style="font-family: 'Josefin Sans', sans-serif;" fill="white" x="20" y="215"> Quiz! </text>
-
-        <!-- <circle fill="url(#image-3)" cx="42" cy="210" r="50" /> -->
+          <circle class="screenshot" fill="url(#image-3)" cx="42" cy="210" r="50" />
         </a>
         <text font-size="8"   fill="white" x="95" y="200">» Tool for making quizzes</text>
         <text font-size="8"   fill="white" x="95" y="210">» Rails, React, AJAX </text>
@@ -73,7 +74,7 @@
         <polygon fill="#303639" points="400,385 0,300 400,210"/>
         <a xlink:href="#">
           <circle fill="#3498db" cx="358" cy="285" r="50" />
-          <text font-size="22" style="font-family: 'Josefin Sans', sans-serif;" fill="white" x="318" y="290"> Bookshelf! </text>
+          <text font-size="22" style="font-family: 'Josefin Sans', sans-serif;" fill="white" x="318" y="290"> Bookshelf</text>
         </a>
         <text text-anchor="end" font-size="8"   fill="white" x="305" y="280">Forum to discuss current reads «</text>
         <text text-anchor="end" font-size="8"   fill="white" x="305" y="290">Ruby on Rails, Javascript, jQuery « </text>

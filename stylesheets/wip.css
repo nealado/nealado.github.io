@@ -4,6 +4,14 @@ a {
   text-decoration: none;
 }
 
+.icon:hover {
+  fill: #1abc9c;
+}
+
+.icon {
+  fill: #000000;
+}
+
 body {
   text-align: right;
   font-family: helvetica;
@@ -16,10 +24,17 @@ h1, h4 {
   padding: 0;
   font-weight: 300;
   font-family: 'Josefin Sans', sans-serif;
-  font-variant: small-caps;
-  text-align: right;
+  text-align: center;
 }
 
+h1 {
+  font-variant: small-caps;
+
+}
+
+h4{
+  color: #e74c3c;
+}
 p {
   margin: 0;
   padding: 0;
@@ -29,7 +44,14 @@ p {
   max-width: 800px;
   margin: 0 auto;
   margin-top: 20px;
+  text-align: center;
+  margin-bottom: 40px;
+}
 
+.footer {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .container {
@@ -41,7 +63,10 @@ p {
 
 @media (min-width: 500px) {
   h1 {
-    font-size: 4em
+    font-size: 4em;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 30px;
  }
 }
 

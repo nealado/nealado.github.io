@@ -12,6 +12,9 @@ a {
   fill: #000000;
 }
 
+.title {
+  font-weight: 600;
+}
 body {
   text-align: right;
   font-family: helvetica;

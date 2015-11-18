@@ -4,6 +4,16 @@ a {
   text-decoration: none;
 }
 
+.project1 {
+    width: 250px;
+    height: 150px;
+    position: absolute;
+    float: left;
+    display: block;
+    left: 10%
+
+}
+
 .icon:hover {
   fill: #8e44ad;
 }
@@ -12,9 +22,20 @@ a {
   fill: #000000;
 }
 
+
+.screenshot {
+  opacity: 0;
+}
+
+
+.screenshot:hover {
+  opacity: 1;
+}
+
 .title {
   font-weight: 600;
 }
+
 body {
   text-align: right;
   font-family: helvetica;
@@ -43,13 +64,6 @@ h4{
 p {
   margin: 0;
   padding: 0;
-}
-
-.screenshot {
-  opacity: 0;
-}
-.screenshot:hover {
-  opacity: 1;
 }
 
 svg {

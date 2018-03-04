@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
-  <title>Victoria</title>
-  <link rel="stylesheet" href="/stylesheets/wip.css" />
+  <title>VND - Front End Dev</title>
+  <link rel="stylesheet" href="/stylesheets/main.css" />
 </head>
+
 <body>
 
   <div class="header">
@@ -13,83 +15,73 @@
   </div>
 
   <div class="container">
-      <svg viewBox= "-25 0 450 390" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMin slice"
-
-        style="width: 100%">
-
+    <svg viewBox="-25 0 450 390" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMin slice"
+      style="width: 100%">
+      <g>
+        <defs>
+          <pattern id="image" height="1px" width="1px">
+            <image x="-50" y="-2" width="200" height="200" xlink:href="images/comicrec_circle.png"></image>
+          </pattern>
+        </defs>
+        <polygon fill="#444a4c" points="0,0 0,120 400, 50" />
+        <a xlink:href="https://comicrec.herokuapp.com/">
+          <circle fill="#1abc9c" cx="42" cy="60" r="50" />
+          <text class="title" font-size="22" style="font-family: 'Josefin Sans', sans-serif;" fill="white" x="-2" y="65">ComicRec</text>
+          <circle class="screenshot" fill="url(#image)" cx="42" cy="60" r="50" />
+        </a>
+        <text font-size="8" fill="white" x="95" y="50">» Finds new readers comics they'll love</text>
+        <text font-size="8" fill="white" x="95" y="60">» Express, React, AJAX, ComicVine API </text>
+        <text font-size="8" fill="white" x="95" y="70">» Bootstrap, SASS </text>
         <g>
           <defs>
-           <pattern id="image" height="1px" width="1px" >
-             <image x="-50" y="-2" width="200" height="200" xlink:href="images/comicrec_circle.png"></image>
-           </pattern>
+            <pattern id="image-2" height="1px" width="1px" viewbox="0 30 80 20">
+              <image x="0" y="0" width="80" height="80" xlink:href="images/wnba-averages.png"></image>
+            </pattern>
           </defs>
-
-          <polygon fill="#444a4c" points="0,0 0,120 400, 50"/>
-
-          <a xlink:href="https://comicrec.herokuapp.com/">
-            <circle fill="#1abc9c" cx="42" cy="60" r="50" />
-            <text class="title" font-size="22" style="font-family: 'Josefin Sans', sans-serif;" fill="white" x="-2" y="65">ComicRec </text>
-            <circle class="screenshot" fill="url(#image)" cx="42" cy="60" r="50" />
+          <polygon fill="#444a4c" points="400,180 0,130 400,60" />
+          <a xlink:href="https://nealado.github.io/wnba-averages/">
+            <circle fill="#1abc9c" cx="358" cy="120" r="50" />
+            <text class="title" font-size="22" style="font-family: 'Josefin Sans', sans-serif;" fill="white" x="325" y="115">WNBA</text>
+            <text class="title" font-size="22" style="font-family: 'Josefin Sans', sans-serif;" fill="white" x="318" y="140">Averages</text>
+            <circle class="screenshot" fill="url(#image-2)" cx="358" cy="120" r="50" />
           </a>
-
-
-
-          <text font-size="8"   fill="white" x="95" y="50">» Finds new readers comics they'll love</text>
-          <text font-size="8"   fill="white" x="95" y="60">» Express, React, AJAX, ComicVine API </text>
-          <text font-size="8"   fill="white" x="95" y="70">» Bootstrap, SASS </text>
-
-      <g>
-        <defs>
-         <pattern id="image-2" height="1px" width="1px" viewbox="0 30 80 20">
-           <image x="0" y="0" width="80" height="80" xlink:href="images/TTTcircle.png"></image>
-         </pattern>
-       </defs>
-        <polygon fill="#444a4c" points="400,180 0,130 400,60"/>
-        <a xlink:href="http://nealado.github.io/TTT-donnelly.github.io">
-          <circle fill="#1abc9c" cx="358" cy="120" r="50" />
-          <text class="title" font-size="22" style="font-family: 'Josefin Sans', sans-serif;" fill="white" x="340" y="125">TTT </text>
-          <circle class="screenshot" fill="url(#image-2)" cx="358" cy="120" r="50" />
-        </a>
-        <text text-anchor="end" font-size="8"   fill="white" x="305" y="110">Animated Tic Tac Toe «</text>
-        <text text-anchor="end" font-size="8"   fill="white" x="305" y="120">Javascript, Velocity.js « </text>
-        <text text-anchor="end" font-size="8"   fill="white" x="305" y="130">CSS, SVGs « </text>
-      </g>
-
-      <g>
-        <defs>
-         <pattern id="image-3" height="1px" width="1px" viewbox="0 30 80 20">
-           <image x="0" y="0" width="80" height="80" xlink:href="images/quiz_circle.png"></image>
-         </pattern>
-       </defs>
-        <polygon fill="#444a4c" points="0,150 0,280 400, 190"/>
-        <a xlink:href="https://project-3-quiz.herokuapp.com">
-          <circle fill="#1abc9c" cx="42" cy="210" r="50" />
-          <text class="title" font-size="22" style="font-family: 'Josefin Sans', sans-serif;" fill="white" x="18" y="215"> Quiz! </text>
-          <circle class="screenshot" fill="url(#image-3)" cx="42" cy="210" r="50" />
-        </a>
-        <text font-size="8"   fill="white" x="95" y="200">» Tool for making quizzes. User + PW: test</text>
-        <text font-size="8"   fill="white" x="95" y="210">» Rails, React, AJAX </text>
-        <text font-size="8"   fill="white" x="95" y="220">» Bootstrap, SASS </text>
-      </g>
-
-      <g>
-        <defs>
-         <pattern id="image-4" height="1px" width="1px" viewbox="0 30 80 20">
-           <image x="0" y="0" width="80" height="80" xlink:href="images/forum_circle.png"></image>
-         </pattern>
-       </defs>
-        <polygon fill="#444a4c" points="400,385 0,300 400,210"/>
-        <a xlink:href="https://project-2-forum.herokuapp.com">
-          <circle fill="#1abc9c" cx="358" cy="285" r="50" />
-          <text class="title" font-size="22" style="font-family: 'Josefin Sans', sans-serif;" fill="white" x="315" y="290"> Bookshelf</text>
-          <circle class="screenshot" fill="url(#image-4)" cx="358" cy="285" r="50" />
-        </a>
-        <text text-anchor="end" font-size="8"   fill="white" x="305" y="280">Forum for current reads. User + PW: test «</text>
-        <text text-anchor="end" font-size="8"   fill="white" x="305" y="290">Ruby on Rails, Javascript, jQuery « </text>
-        <text text-anchor="end" font-size="8"   fill="white" x="305" y="301">SASS « </text>
-      </g>
-
-      <!-- <polygon fill="#303639" points="0,400 400,400 0,350"/> -->
+          <text text-anchor="end" font-size="8" fill="white" x="305" y="117">Data visualization of average WNBA player «</text>
+          <text text-anchor="end" font-size="8" fill="white" x="305" y="127">Javascript, d3.js, NVD3.js « </text>
+          <text text-anchor="end" font-size="8" fill="white" x="305" y="137">CSS, SVGs « </text>
+        </g>
+        <g>
+          <defs>
+            <pattern id="image-3" height="1px" width="1px" viewbox="0 30 80 20">
+              <image x="0" y="0" width="80" height="80" xlink:href="images/TTTcircle.png"></image>
+            </pattern>
+          </defs>
+          <polygon fill="#444a4c" points="0,150 0,280 400, 190" />
+          <a xlink:href="http://nealado.github.io/TTT-donnelly.github.io">
+            <circle fill="#1abc9c" cx="42" cy="210" r="50" />
+            <text class="title" font-size="22" style="font-family: 'Josefin Sans', sans-serif;" fill="white" x="23" y="215">TTT</text>
+            <circle class="screenshot" fill="url(#image-3)" cx="42" cy="210" r="50" />
+          </a>
+          <text font-size="8" fill="white" x="95" y="200">» Animated Tic Tac Toe</text>
+          <text font-size="8" fill="white" x="95" y="210">» Javascript, Velocity.js</text>
+          <text font-size="8" fill="white" x="95" y="220">» CSS, SVGs</text>
+        </g>
+        <g>
+          <defs>
+            <pattern id="image-4" height="1px" width="1px" viewbox="0 30 80 20">
+              <image x="0" y="0" width="80" height="80" xlink:href="images/quiz_circle.png"></image>
+            </pattern>
+          </defs>
+          <polygon fill="#444a4c" points="400,385 0,300 400,210" />
+          <a xlink:href="https://project-3-quiz.herokuapp.com">
+            <circle fill="#1abc9c" cx="358" cy="285" r="50" />
+            <text class="title" font-size="22" style="font-family: 'Josefin Sans', sans-serif;" fill="white" x="333" y="290">Quiz!</text>
+            <circle class="screenshot" fill="url(#image-4)" cx="358" cy="285" r="50" />
+          </a>
+          <text text-anchor="end" font-size="8" fill="white" x="305" y="280">Tool for making quizzes. User + PW: test «</text>
+          <text text-anchor="end" font-size="8" fill="white" x="305" y="290">Rails, React, AJAX « </text>
+          <text text-anchor="end" font-size="8" fill="white" x="305" y="301">Bootstrap, SASS « </text>
+        </g>
+        <!-- <polygon fill="#303639" points="0,400 400,400 0,350"/> -->
     </svg>
   </div>
 
@@ -97,25 +89,29 @@
     <span>
       <a href="mailto:vic.n.d1@gmail.com">
         <svg style="width:24px;height:24px" viewBox="0 0 24 24">
-            <path class="icon" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" />
+          <path class="icon" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z"
+          />
         </svg>
       </a>
     </span>
 
-   <a href="#">
+    <a href="#">
       <svg style="width:24px;height:24px" viewBox="0 0 24 24">
-        <path class="icon" d="M12,2A10,10 0 0,0 2,12C2,16.42 4.87,20.17 8.84,21.5C9.34,21.58 9.5,21.27 9.5,21C9.5,20.77 9.5,20.14 9.5,19.31C6.73,19.91 6.14,17.97 6.14,17.97C5.68,16.81 5.03,16.5 5.03,16.5C4.12,15.88 5.1,15.9 5.1,15.9C6.1,15.97 6.63,16.93 6.63,16.93C7.5,18.45 8.97,18 9.54,17.76C9.63,17.11 9.89,16.67 10.17,16.42C7.95,16.17 5.62,15.31 5.62,11.5C5.62,10.39 6,9.5 6.65,8.79C6.55,8.54 6.2,7.5 6.75,6.15C6.75,6.15 7.59,5.88 9.5,7.17C10.29,6.95 11.15,6.84 12,6.84C12.85,6.84 13.71,6.95 14.5,7.17C16.41,5.88 17.25,6.15 17.25,6.15C17.8,7.5 17.45,8.54 17.35,8.79C18,9.5 18.38,10.39 18.38,11.5C18.38,15.32 16.04,16.16 13.81,16.41C14.17,16.72 14.5,17.33 14.5,18.26C14.5,19.6 14.5,20.68 14.5,21C14.5,21.27 14.66,21.59 15.17,21.5C19.14,20.16 22,16.42 22,12A10,10 0 0,0 12,2Z" />
+        <path class="icon" d="M12,2A10,10 0 0,0 2,12C2,16.42 4.87,20.17 8.84,21.5C9.34,21.58 9.5,21.27 9.5,21C9.5,20.77 9.5,20.14 9.5,19.31C6.73,19.91 6.14,17.97 6.14,17.97C5.68,16.81 5.03,16.5 5.03,16.5C4.12,15.88 5.1,15.9 5.1,15.9C6.1,15.97 6.63,16.93 6.63,16.93C7.5,18.45 8.97,18 9.54,17.76C9.63,17.11 9.89,16.67 10.17,16.42C7.95,16.17 5.62,15.31 5.62,11.5C5.62,10.39 6,9.5 6.65,8.79C6.55,8.54 6.2,7.5 6.75,6.15C6.75,6.15 7.59,5.88 9.5,7.17C10.29,6.95 11.15,6.84 12,6.84C12.85,6.84 13.71,6.95 14.5,7.17C16.41,5.88 17.25,6.15 17.25,6.15C17.8,7.5 17.45,8.54 17.35,8.79C18,9.5 18.38,10.39 18.38,11.5C18.38,15.32 16.04,16.16 13.81,16.41C14.17,16.72 14.5,17.33 14.5,18.26C14.5,19.6 14.5,20.68 14.5,21C14.5,21.27 14.66,21.59 15.17,21.5C19.14,20.16 22,16.42 22,12A10,10 0 0,0 12,2Z"
+        />
       </svg>
-   </a>
+    </a>
 
-      <span>
-        <a href="https://www.linkedin.com/in/victoriadonnelly">
+    <span>
+      <a href="https://www.linkedin.com/in/victoriadonnelly">
         <svg style="width:24px;height:24px" viewBox="0 0 24 24">
-          <path class="icon" d="M19,19H16V13.7A1.5,1.5 0 0,0 14.5,12.2A1.5,1.5 0 0,0 13,13.7V19H10V10H13V11.2C13.5,10.36 14.59,9.8 15.5,9.8A3.5,3.5 0 0,1 19,13.3M6.5,8.31C5.5,8.31 4.69,7.5 4.69,6.5A1.81,1.81 0 0,1 6.5,4.69C7.5,4.69 8.31,5.5 8.31,6.5A1.81,1.81 0 0,1 6.5,8.31M8,19H5V10H8M20,2H4C2.89,2 2,2.89 2,4V20A2,2 0 0,0 4,22H20A2,2 0 0,0 22,20V4C22,2.89 21.1,2 20,2Z" />
+          <path class="icon" d="M19,19H16V13.7A1.5,1.5 0 0,0 14.5,12.2A1.5,1.5 0 0,0 13,13.7V19H10V10H13V11.2C13.5,10.36 14.59,9.8 15.5,9.8A3.5,3.5 0 0,1 19,13.3M6.5,8.31C5.5,8.31 4.69,7.5 4.69,6.5A1.81,1.81 0 0,1 6.5,4.69C7.5,4.69 8.31,5.5 8.31,6.5A1.81,1.81 0 0,1 6.5,8.31M8,19H5V10H8M20,2H4C2.89,2 2,2.89 2,4V20A2,2 0 0,0 4,22H20A2,2 0 0,0 22,20V4C22,2.89 21.1,2 20,2Z"
+          />
         </svg>
-     </a>
+      </a>
     </span>
   </div>
 
 </body>
+
 </html>
